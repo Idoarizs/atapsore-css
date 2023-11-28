@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  border: 0;
+  font-family: "Inter", sans-serif;
+  transition: all 300ms ease-in-out;
+}
+
+body {
+  max-width: 1920px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Order Form */
+.order-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 20px;
+  padding: 25px 100px;
+  width: 500px;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 25px;
+}
+
+.order-form h1 {
+  text-align: center;
+}
+
+.order-form th {
+  text-align: start;
+}
+
+.order-form td {
+  width: 100%;
+}
+
+.order-form input {
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.order-form button {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #65451f;
+  color: white;
+  border-radius: 10px;
+  height: 45px;
+  font-weight: bold;
+}
+
+.order-form button:hover {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #805828;
+  color: white;
+  border-radius: 10px;
+  height: 45px;
+  font-weight: bold;
+}
+
+/* Review Form */
+.review-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 20px;
+  padding: 25px 100px;
+  width: 500px;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 25px;
+}
+
+h1 {
+  text-align: center;
+}
+
+th {
+  text-align: start;
+}
+
+td {
+  width: 100%;
+}
+
+input {
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #65451f;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.review-form h1 {
+  text-align: center;
+}
+
+.review-form th {
+  text-align: start;
+  width: 50%;
+}
+
+.review-form td {
+  display: flex;
+  width: 100%;
+}
+
+.review-form input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.review-form textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+}

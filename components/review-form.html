@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atap Sore</title>
+    <link rel="stylesheet" href="components.css" />
+    <link rel="icon" href="assets/icons/tea-cup.png" />
+  </head>
+  <body>
+    <form class="review-form">
+      <h1>Review</h1>
+      <table>
+        <tr>
+          <th>Nama</th>
+          <td>
+            <input
+              type="text"
+              id="nama"
+              name="nama"
+              pattern="[a-zA-Z\s]+"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td><input type="email" id="email" name="email" required /></td>
+        </tr>
+        <tr>
+          <th>Ulasan</th>
+          <td>
+            <textarea
+              id="ulasan"
+              name="ulasan"
+              rows="4"
+              pattern=".{5,}"
+              required
+            ></textarea>
+          </td>
+        </tr>
+      </table>
+      <button type="submit">Kirim Sekarang</button>
+    </form>
+  </body>
+</html>
